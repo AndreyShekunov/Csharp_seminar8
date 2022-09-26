@@ -7,7 +7,7 @@ int ReadNumber(string message) // метод ввода числа
     return Convert.ToInt32(Console.ReadLine());
 }
 
-// метод создания двумерного массив (матрицы)
+// метод создания двумерного массив (матрицы) 
 int[,] GetMatrix(int rowsCount, int columnsCount, int leftRange = -10, int rightRange = 10) // - 10 и 10 значения по умолчанию
 {
     int[,] matrix = new int[rowsCount, columnsCount];
